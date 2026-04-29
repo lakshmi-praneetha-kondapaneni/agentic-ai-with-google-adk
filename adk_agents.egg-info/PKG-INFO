@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: adk-agents
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: google-adk>=1.12.0
+Requires-Dist: litellm>=1.76.0
+Requires-Dist: streamlit>=1.49.1
+Requires-Dist: langchain-community>=0.0.271
+Requires-Dist: crewai>=1.14.3
+Requires-Dist: crewai-tools>=1.14.3
+
+# For SessionService - Inmemory service 
+Use test_session.py
+  - to run use strict python: uv run `test_session.py` --> show how to instantiate an inmmemory service session: service = InMemorySessionService() # A session backend that stores conversational state in memory
+ 
+ 

@@ -1,0 +1,6 @@
+# Ignore sensitive files
+gen-lang-client-*.json
+.adk/
+*.db
+.env
+# Add other patterns as needed
